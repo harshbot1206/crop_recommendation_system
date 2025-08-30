@@ -1,0 +1,17 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f9f6;
+}
+.card {
+    background-color: white;
+    border: 1px solid #dee2e6;
+}
+label {
+    font-weight: 600;
+}
+input {
+    border-radius: 10px !important;
+}
+button {
+    font-weight: bold;
+}

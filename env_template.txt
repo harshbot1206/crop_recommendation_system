@@ -1,0 +1,22 @@
+# Gujarat Crop Recommendation System - Environment Variables Template
+# Copy this content to a new file named ".env" (with the dot at the beginning)
+
+# OpenWeatherMap API (Free tier: 1000 calls/day)
+# Sign up at: https://openweathermap.org/api
+OPENWEATHER_API_KEY=af2a48c09a554a0b206f8fa58a30dc97
+
+# Soil API - User provided key
+SOIL_API_KEY=48mlwO5KAP5ye1vWoAhKLG21CDlHziAV
+
+# Mandi API - User provided key
+MANDI_API_KEY=9ef84268-d588-465a-a308-a864a43d0070
+MANDI_API_URL=https://api.mandi.com
+
+# Database settings
+DATABASE_URL=sqlite:///db.sqlite3
+
+# Logging level
+LOG_LEVEL=INFO
+
+# Cache timeout in seconds
+CACHE_TIMEOUT=3600
